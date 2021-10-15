@@ -1,0 +1,62 @@
+body {
+  background-image: url("hatter.jpg");
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(172, 243, 243);
+  padding: 20px;
+}
+header {
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+.kep-tarolo {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.aláírás {
+  color: blue;
+  text-align: center;
+}
+table {
+  border: 1px solid blue;
+  margin: 0 auto;
+}
+th {
+  background-color: blue;
+  color: white;
+}
+td {
+  text-align: center;
+  padding: 5px;
+  border-color: white;
+  
+  
+  
+}
+.kep {
+  width: 200px;
+  height: 200px;
+  box-shadow: 7px 7px rgb(75, 183, 219);
+  border-radius: 5px;
+}
+p {
+  text-align: justify;
+  text-indent: 1rem;
+}
+.félkövér {
+  font-style: bold;
+  color: blue;
+}
+footer {
+  text-align: right;
+}
