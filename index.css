@@ -1,7 +1,6 @@
 body {
   background-image: url("hatter.jpg");
 }
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -39,9 +38,6 @@ td {
   text-align: center;
   padding: 5px;
   border-color: white;
-  
-  
-  
 }
 .kep {
   width: 200px;
