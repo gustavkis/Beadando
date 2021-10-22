@@ -28,6 +28,7 @@ header {
 h2 {
   color: blue;
 }
+
 .kep-tarolo {
   display: flex;
   flex-direction: row;
@@ -35,9 +36,17 @@ h2 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+DIV#keret {
+  width: 190px;
+  height: 180px;
+  box-shadow: 5px 5px 5px 5px rgb(63, 180, 219);
+  border-radius: 5px;
+}
 .aláírás {
   color: blue;
   text-align: center;
+  margin-top: 5px;
 }
 table {
   border: 1px solid blue;
@@ -53,10 +62,8 @@ td {
   border-color: white;
 }
 .kep {
-  width: 200px;
-  height: 200px;
-  box-shadow: 7px 7px rgb(75, 183, 219);
-  border-radius: 5px;
+  width: 190px;
+  height: 140px;
 }
 p {
   text-align: justify;
@@ -68,4 +75,5 @@ p {
 }
 footer {
   text-align: right;
+  margin-top: 15px;
 }
